@@ -13,6 +13,13 @@
 		5B46B1C4264384A4006AB39F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B46B1C3264384A4006AB39F /* Preview Assets.xcassets */; };
 		5B46B1C6264384A4006AB39F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B46B1C5264384A4006AB39F /* Persistence.swift */; };
 		5B46B1C9264384A4006AB39F /* StandIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B46B1C7264384A4006AB39F /* StandIn.xcdatamodeld */; };
+		5B9CA7D52643853B0048ED11 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7D42643853B0048ED11 /* RestaurantList.swift */; };
+		5B9CA7D72643889A0048ED11 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7D62643889A0048ED11 /* RestaurantDetail.swift */; };
+		5B9CA7D926438B440048ED11 /* GetInLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7D826438B440048ED11 /* GetInLine.swift */; };
+		5B9CA7DB26438E7B0048ED11 /* PlaceInLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7DA26438E7B0048ED11 /* PlaceInLine.swift */; };
+		5B9CA7DD26438E930048ED11 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7DC26438E930048ED11 /* QRCodeGenerator.swift */; };
+		5B9CA7DF26438E9A0048ED11 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7DE26438E9A0048ED11 /* QRCode.swift */; };
+		5B9CA7E126438FCA0048ED11 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CA7E026438FCA0048ED11 /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		5B46B1C5264384A4006AB39F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5B46B1C8264384A4006AB39F /* StandIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StandIn.xcdatamodel; sourceTree = "<group>"; };
 		5B46B1CA264384A4006AB39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9CA7D42643853B0048ED11 /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
+		5B9CA7D62643889A0048ED11 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		5B9CA7D826438B440048ED11 /* GetInLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInLine.swift; sourceTree = "<group>"; };
+		5B9CA7DA26438E7B0048ED11 /* PlaceInLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInLine.swift; sourceTree = "<group>"; };
+		5B9CA7DC26438E930048ED11 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		5B9CA7DE26438E9A0048ED11 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		5B9CA7E026438FCA0048ED11 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				5B46B1CA264384A4006AB39F /* Info.plist */,
 				5B46B1C7264384A4006AB39F /* StandIn.xcdatamodeld */,
 				5B46B1C2264384A4006AB39F /* Preview Content */,
+				5B9CA7D42643853B0048ED11 /* RestaurantList.swift */,
+				5B9CA7D62643889A0048ED11 /* RestaurantDetail.swift */,
+				5B9CA7D826438B440048ED11 /* GetInLine.swift */,
+				5B9CA7DA26438E7B0048ED11 /* PlaceInLine.swift */,
+				5B9CA7DC26438E930048ED11 /* QRCodeGenerator.swift */,
+				5B9CA7DE26438E9A0048ED11 /* QRCode.swift */,
+				5B9CA7E026438FCA0048ED11 /* Navigation.swift */,
 			);
 			path = StandIn;
 			sourceTree = "<group>";
@@ -144,10 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B9CA7DB26438E7B0048ED11 /* PlaceInLine.swift in Sources */,
+				5B9CA7D926438B440048ED11 /* GetInLine.swift in Sources */,
+				5B9CA7D52643853B0048ED11 /* RestaurantList.swift in Sources */,
+				5B9CA7E126438FCA0048ED11 /* Navigation.swift in Sources */,
 				5B46B1C6264384A4006AB39F /* Persistence.swift in Sources */,
 				5B46B1C9264384A4006AB39F /* StandIn.xcdatamodeld in Sources */,
+				5B9CA7D72643889A0048ED11 /* RestaurantDetail.swift in Sources */,
 				5B46B1BF264384A3006AB39F /* ContentView.swift in Sources */,
+				5B9CA7DD26438E930048ED11 /* QRCodeGenerator.swift in Sources */,
 				5B46B1BD264384A3006AB39F /* StandInApp.swift in Sources */,
+				5B9CA7DF26438E9A0048ED11 /* QRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
